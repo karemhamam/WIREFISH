@@ -66,7 +66,7 @@ The program expects two arguments:
 ### Example Command
 
 ```bash
-./sniffer "tcp port 80" output.pcap
+sudo ./sniffer "tcp port 80" output.pcap
 ```
 
 This command captures only TCP packets on port 80 (HTTP traffic) and saves the captured packets to `output.pcap`.
@@ -99,3 +99,8 @@ For an ICMP packet:
 IP Packet: Source: 192.168.0.1, Destination: 192.168.0.2
 ICMP Packet: Type: 8, Code: 0
 ```
+## Author
+
+👨‍💻 **Mohamed Hamam**
+
+This project is part of my journey into system programming, real-time signaling, and embedded systems. Feel free to contribute or provide feedback! 😊
